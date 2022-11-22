@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Image</title>
+    <style>
+        .box {
+            height: 250px;
+            width: 350px;
+            border: 10px solid transparent;
+            /* border-image: url('images/border-diamonds.png') 20 stretch; */
+            border-image: url('images/border-diamonds.png') 20 / 30px stretch;
+            /* round, stretch, space, round stretch, round space */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>
